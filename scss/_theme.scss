@@ -1,62 +1,15 @@
-/*
 @font-face {
-  font-family: "AvenirMedium";
-  src: url('../fonts/theme/Avenir65Medium.eot');
-  src: url('../fonts/theme/Avenir65Medium.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir65Medium.woff') format('woff'), url('../fonts/theme/Avenir65Medium.ttf') format('truetype'), url('../fonts/theme/Avenir65Medium.svg#Avenir65Medium') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-@font-face {
-  font-family: "AvenirHeavy";
-  src: url('../fonts/theme/Avenir85Heavy.eot');
-  src: url('../fonts/theme/Avenir85Heavy.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir85Heavy.woff') format('woff'), url('../fonts/theme/Avenir85Heavy.ttf') format('truetype'), url('../fonts/theme/Avenir85Heavy.svg#Avenir85Heavy') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-
-@font-face {
-  font-family: "AvenirBlack";
-  src: url('../fonts/theme/Avenir95Black.eot');
-  src: url('../fonts/theme/Avenir95Black.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir95Black.woff') format('woff'), url('../fonts/theme/Avenir95Black.ttf') format('truetype'), url('../fonts/theme/Avenir95Black.svg#Avenir95Black') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-@font-face {
-  font-family: "sheridan";
-  src: url('../fonts/theme/sheridan.eot?1415077062');
-  src: url('../fonts/theme/sheridan.eot?1415077062#iefix') format('embedded-opentype'), url('../fonts/theme/sheridan.woff?1415077062') format('woff'), url('../fonts/theme/sheridan.ttf?1415077062') format('truetype'), url('../fonts/theme/sheridan.svg?1415077062#sheridan') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-
-
-
-
-
-
-*/
-
-/*
-@font-face {
-  font-family: "AvenirBook";
-  src: url('../fonts/theme/Avenir45Book.eot');
-  src: url('../fonts/theme/Avenir45Book.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir45Book.woff') format('woff'), url('../fonts/theme/Avenir45Book.ttf') format('truetype'), url('../fonts/theme/AvenirBook.svg#Avenir45Book') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-*/
-@font-face {
-  font-family: 'Avenir45Book';
-  src: url('../fonts/theme/Avenir45Book.eot?v=4.4.0');
-  src: url('../fonts/theme/Avenir45Book.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/theme/Avenir45Book.woff2?v=4.4.0') format('woff2'), url('../fonts/theme/Avenir45Book.woff?v=4.4.0') format('woff'), url('../fonts/theme/Avenir45Book.ttf?v=4.4.0') format('truetype'), url('../fonts/theme/Avenir45Book.svg?v=4.4.0#Avenir45Book') format('svg');
+  font-family: "Avenir45Book";
+  src: url("../fonts/theme/Avenir45Book.eot?v=4.4.0");
+  src: url("../fonts/theme/Avenir45Book.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/theme/Avenir45Book.woff2?v=4.4.0") format("woff2"), url("../fonts/theme/Avenir45Book.woff?v=4.4.0") format("woff"), url("../fonts/theme/Avenir45Book.ttf?v=4.4.0") format("truetype"), url("../fonts/theme/Avenir45Book.svg?v=4.4.0#Avenir45Book") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Baskerville Old Face";
-  src: url('../fonts/theme/baskerville-old-face-webfont.eot');
-  src: url('../fonts/theme/baskerville-old-face-webfont.eot#iefix') format('embedded-opentype'), url('../fonts/theme/baskerville-old-face-webfont.woff') format('woff'), url('../fonts/theme/baskerville-old-face-webfont.ttf') format('truetype'), url('../fonts/theme/baskerville-old-face-webfont.svg#BaskervilleOldFace') format('svg');
+  src: url("../fonts/theme/baskerville-old-face-webfont.eot");
+  src: url("../fonts/theme/baskerville-old-face-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/theme/baskerville-old-face-webfont.woff") format("woff"), url("../fonts/theme/baskerville-old-face-webfont.ttf") format("truetype"), url("../fonts/theme/baskerville-old-face-webfont.svg#BaskervilleOldFace") format("svg");
   font-weight: "normal";
   font-style: "normal";
 }
@@ -65,7 +18,7 @@ body {
   font-family: "Avenir45Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.font-bos {  
+.font-bos {
   font-family: "Baskerville Old Face";
 }
 
@@ -81,13 +34,6 @@ h1, h2, h3, .h1, .h2, .h3 {
 img {
   max-width: 100%;
   height: auto;
-}
-.navbar-nav > li > a {
-  // border-bottom: 4px solid #fff;
-  // line-height: 16px;
-}
-.navbar-nav > li > a:hover {
-  // border-bottom-color: #aeaeae;
 }
 
 .breadcrumb {
@@ -111,20 +57,19 @@ h2.product-name {
   text-transform: uppercase;
 }
 
-
-
 /*!
- *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
+/* FONT PATH
+ * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -2138,6 +2083,66 @@ h2.product-name {
 .fa-fonticons:before {
   content: "\f280";
 }
+.fa-reddit-alien:before {
+  content: "\f281";
+}
+.fa-edge:before {
+  content: "\f282";
+}
+.fa-credit-card-alt:before {
+  content: "\f283";
+}
+.fa-codiepie:before {
+  content: "\f284";
+}
+.fa-modx:before {
+  content: "\f285";
+}
+.fa-fort-awesome:before {
+  content: "\f286";
+}
+.fa-usb:before {
+  content: "\f287";
+}
+.fa-product-hunt:before {
+  content: "\f288";
+}
+.fa-mixcloud:before {
+  content: "\f289";
+}
+.fa-scribd:before {
+  content: "\f28a";
+}
+.fa-pause-circle:before {
+  content: "\f28b";
+}
+.fa-pause-circle-o:before {
+  content: "\f28c";
+}
+.fa-stop-circle:before {
+  content: "\f28d";
+}
+.fa-stop-circle-o:before {
+  content: "\f28e";
+}
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+.fa-shopping-basket:before {
+  content: "\f291";
+}
+.fa-hashtag:before {
+  content: "\f292";
+}
+.fa-bluetooth:before {
+  content: "\f293";
+}
+.fa-bluetooth-b:before {
+  content: "\f294";
+}
+.fa-percent:before {
+  content: "\f295";
+}
 
 
 
@@ -2166,20 +2171,8 @@ h2.product-name {
   margin-top: 0px;
   max-height: 1rem;
 }
-.page-title {
-  margin-top: 0;
-}
-.page-title.page-header {
-  padding-bottom: 0;
-  border-bottom-width: 4px;
-}
-.page-title h1 {
-  font-family: "Baskerville Old Face";
-  margin: 0;
-  font-size: 28px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+
+
 .footer_extra .nav > li > a {
   padding: 4px 4px;
   color: #777777;
@@ -2190,23 +2183,17 @@ h2.product-name {
   color: #555555;
   text-decoration: underline;
 }
-.footer_extra h2,
-.footer_extra h3 {
-  font-size: 22px;
-  padding: 0 4px;
-}
 
 
 
-/**
-/**
- * Pacific Brands - Ribbons
- *  
- * @category    design
- * @package     pacbrands_sheridan2
- * @copyright   Copyright (c) 2014 Pacific Brands Limited
- */
-/* Ribbons - Default */
+
+// * Pacific Brands - Ribbons
+// *
+// * @category    design
+// * @package     pacbrands_sheridan2
+// * @copyright   Copyright (c) 2014 Pacific Brands Limited
+// */
+// * Ribbons - Default */
 
 .products-grid.products-grid-6 .product-ribbon.sheridanandme img,
 .products-grid.products-grid-4 .product-ribbon.sheridanandme img {
@@ -2518,15 +2505,15 @@ h2.product-name {
 .catalog-product-view .product-view .product-img-box .product-ribbons .product-ribbon.ribbon-position-bottom-center {
   z-index: 199;
 }
-/* Hide all price ribbons for now */
+// * Hide all price ribbons for now */
 .ribbon-price {
   display: none;
 }
-/* Recently viewed products */
+// * Recently viewed products */
 [data-item-count="0"] {
   display: none;
 }
-/* Product grids - make image box relative */
+// * Product grids - make image box relative */
 .product_image {
   position: relative;
 }
@@ -2535,12 +2522,11 @@ h2.product-name {
 }
 
 
-/**
- * @category    Mana
- * @package     ManaPro_FilterCheckboxes
- * @copyright   Copyright (c) http://www.manadev.com
- * @license     http://www.manadev.com/license  Proprietary License
- */
+// * @category    Mana
+// * @package     ManaPro_FilterCheckboxes
+// * @copyright   Copyright (c) http://www.manadev.com
+// * @license     http://www.manadev.com/license  Proprietary License
+
 ol.m-filter-css-checkboxes li {
   padding-bottom: 3px;
 }
@@ -2572,12 +2558,11 @@ ol.m-filter-css-checkboxes li a.m-checkbox-checked {
   position: relative;
   bottom: 2px;
 }
-/*
- * @category    Mana
- * @package     ManaPro_FilterShowMore
- * @copyright   Copyright (c) http://www.manadev.com
- * @license     http://www.manadev.com/license  Proprietary License
- */
+// /*
+// * @category    Mana
+// * @package     ManaPro_FilterShowMore
+// * @copyright   Copyright (c) http://www.manadev.com
+// * @license     http://www.manadev.com/license  Proprietary License
 .m-more-less {
   font-size: 11px;
   text-align: right;
@@ -2725,8 +2710,8 @@ html {
 }
 
 @include media-breakpoint-down(xs) {
-  
-  // Make the navbar stack for xs devices.. 
+
+  // Make the navbar stack for xs devices..
   .nav.navbar-nav {
     .nav-link {
       display: block;
@@ -2773,7 +2758,7 @@ html {
   font-size: 14px;
 }
 
-/* 3x Product Grid */
+// * 3x Product Grid */
 @include media-breakpoint-down(md) {
   .products-grid-3 {
     .item {
@@ -2782,10 +2767,6 @@ html {
       }
     }
   }
-}
-
-@include media-breakpoint-up(md) {
-  
 }
 
 @include media-breakpoint-up(lg) {
@@ -2797,3 +2778,12 @@ html {
     }
   }
 }
+
+
+
+// infinite scrolling engine - hide block
+
+.mb-infinitescrolling-engine {
+    display: none;
+}
+

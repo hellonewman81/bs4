@@ -311,7 +311,7 @@ body {
   font-family: "Avenir45Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #222222;
+  color: #222;
   background-color: #fff;
 }
 
@@ -332,7 +332,7 @@ p {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #cccccc;
+  border-bottom: 1px dotted #ccc;
 }
 
 address {
@@ -436,7 +436,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #cccccc;
+  color: #ccc;
   text-align: left;
   caption-side: bottom;
 }
@@ -606,7 +606,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #cccccc;
+  color: #ccc;
 }
 
 .blockquote-footer::before {
@@ -668,7 +668,7 @@ dl.row > dd + dt {
 
 .figure-caption {
   font-size: 90%;
-  color: #cccccc;
+  color: #ccc;
 }
 
 code,
@@ -703,7 +703,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
-  color: #222222;
+  color: #222;
 }
 
 pre code {
@@ -2025,17 +2025,17 @@ pre code {
 
 .thead-inverse th {
   color: #fff;
-  background-color: #222222;
+  background-color: #222;
 }
 
 .thead-default th {
-  color: #888888;
+  color: #888;
   background-color: #eceeef;
 }
 
 .table-inverse {
   color: #eceeef;
-  background-color: #222222;
+  background-color: #222;
 }
 
 .table-inverse.table-bordered {
@@ -2045,7 +2045,7 @@ pre code {
 .table-inverse th,
 .table-inverse td,
 .table-inverse thead th {
-  border-color: #888888;
+  border-color: #888;
 }
 
 .table-reflow thead {
@@ -2093,7 +2093,7 @@ pre code {
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.25;
-  color: #888888;
+  color: #888;
   background-color: #fff;
   background-image: none;
   -webkit-background-clip: padding-box;
@@ -2562,13 +2562,13 @@ fieldset[disabled] a.btn {
 }
 
 .btn-secondary, .btn-default {
-  color: #222222;
+  color: #222;
   background-color: #fff;
   border-color: #ccc;
 }
 
 .btn-secondary:hover, .btn-default:hover {
-  color: #222222;
+  color: #222;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -2576,7 +2576,7 @@ fieldset[disabled] a.btn {
 .btn-secondary:focus,
 .btn-secondary.focus, .btn-default:focus,
 .btn-default.focus {
-  color: #222222;
+  color: #222;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -2586,7 +2586,7 @@ fieldset[disabled] a.btn {
 .open > .btn-secondary.dropdown-toggle, .btn-default:active,
 .btn-default.active,
 .open > .btn-default.dropdown-toggle {
-  color: #222222;
+  color: #222;
   background-color: #e6e6e6;
   border-color: #adadad;
   background-image: none;
@@ -2609,7 +2609,7 @@ fieldset[disabled] a.btn {
 .open > .btn-default.dropdown-toggle:hover,
 .open > .btn-default.dropdown-toggle:focus,
 .open > .btn-default.dropdown-toggle.focus {
-  color: #222222;
+  color: #222;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
@@ -3212,7 +3212,7 @@ fieldset[disabled] a.btn {
 
 .btn-link:disabled:focus,
 .btn-link:disabled:hover {
-  color: #cccccc;
+  color: #ccc;
   text-decoration: none;
 }
 
@@ -3313,7 +3313,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 1rem;
-  color: #222222;
+  color: #222;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3335,7 +3335,7 @@ input[type="button"].btn-block {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  color: #222222;
+  color: #222;
   text-align: inherit;
   white-space: nowrap;
   background: none;
@@ -3361,7 +3361,7 @@ input[type="button"].btn-block {
 .dropdown-item.disabled,
 .dropdown-item.disabled:focus,
 .dropdown-item.disabled:hover {
-  color: #cccccc;
+  color: #ccc;
 }
 
 .dropdown-item.disabled:focus,
@@ -3395,7 +3395,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 5px 20px;
   font-size: 0.875rem;
-  color: #cccccc;
+  color: #ccc;
   white-space: nowrap;
 }
 
@@ -3605,7 +3605,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.25;
-  color: #888888;
+  color: #888;
   text-align: center;
   background-color: #eceeef;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -3773,7 +3773,7 @@ input[type="button"].btn-block {
   max-width: 100%;
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   padding-right: 0.75rem \9;
-  color: #888888;
+  color: #888;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
   background-image: none \9;
@@ -3872,13 +3872,13 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #cccccc;
+  color: #ccc;
 }
 
 .nav-link.disabled,
 .nav-link.disabled:focus,
 .nav-link.disabled:hover {
-  color: #cccccc;
+  color: #ccc;
   cursor: not-allowed;
   background-color: transparent;
 }
@@ -3925,7 +3925,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.disabled,
 .nav-tabs .nav-link.disabled:focus,
 .nav-tabs .nav-link.disabled:hover {
-  color: #cccccc;
+  color: #ccc;
   background-color: transparent;
   border-color: transparent;
 }
@@ -3936,7 +3936,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-item.open .nav-link,
 .nav-tabs .nav-item.open .nav-link:focus,
 .nav-tabs .nav-item.open .nav-link:hover {
-  color: #888888;
+  color: #888;
   background-color: #fff;
   border-color: #ddd #ddd transparent;
 }
@@ -4430,7 +4430,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  color: #cccccc;
+  color: #ccc;
   content: "/";
 }
 
@@ -4443,7 +4443,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item.active {
-  color: #cccccc;
+  color: #ccc;
 }
 
 .pagination {
@@ -4474,7 +4474,7 @@ input[type="button"].btn-block {
 .page-item.disabled .page-link,
 .page-item.disabled .page-link:focus,
 .page-item.disabled .page-link:hover {
-  color: #cccccc;
+  color: #ccc;
   pointer-events: none;
   cursor: not-allowed;
   background-color: #fff;
@@ -4543,7 +4543,7 @@ a.tag:hover {
 }
 
 .tag-default {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 
 .tag-default[href]:focus,
@@ -4968,7 +4968,7 @@ base::-moz-progress-bar, .progress[value] {
 .list-group-item.disabled,
 .list-group-item.disabled:focus,
 .list-group-item.disabled:hover {
-  color: #cccccc;
+  color: #ccc;
   cursor: not-allowed;
   background-color: #eceeef;
 }
@@ -4982,7 +4982,7 @@ base::-moz-progress-bar, .progress[value] {
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:focus .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text {
-  color: #cccccc;
+  color: #ccc;
 }
 
 .list-group-item.active,
@@ -5875,7 +5875,7 @@ button.close {
 
 .bg-inverse {
   color: #eceeef;
-  background-color: #222222;
+  background-color: #222;
 }
 
 .bg-faded {
@@ -6371,7 +6371,7 @@ a.bg-danger:hover {
 }
 
 .text-muted {
-  color: #cccccc !important;
+  color: #ccc !important;
 }
 
 a.text-muted:focus,
@@ -6528,54 +6528,8 @@ a.text-danger:hover {
   }
 }
 
-/*
 @font-face {
-  font-family: "AvenirMedium";
-  src: url('../fonts/theme/Avenir65Medium.eot');
-  src: url('../fonts/theme/Avenir65Medium.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir65Medium.woff') format('woff'), url('../fonts/theme/Avenir65Medium.ttf') format('truetype'), url('../fonts/theme/Avenir65Medium.svg#Avenir65Medium') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-@font-face {
-  font-family: "AvenirHeavy";
-  src: url('../fonts/theme/Avenir85Heavy.eot');
-  src: url('../fonts/theme/Avenir85Heavy.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir85Heavy.woff') format('woff'), url('../fonts/theme/Avenir85Heavy.ttf') format('truetype'), url('../fonts/theme/Avenir85Heavy.svg#Avenir85Heavy') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-
-@font-face {
-  font-family: "AvenirBlack";
-  src: url('../fonts/theme/Avenir95Black.eot');
-  src: url('../fonts/theme/Avenir95Black.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir95Black.woff') format('woff'), url('../fonts/theme/Avenir95Black.ttf') format('truetype'), url('../fonts/theme/Avenir95Black.svg#Avenir95Black') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-@font-face {
-  font-family: "sheridan";
-  src: url('../fonts/theme/sheridan.eot?1415077062');
-  src: url('../fonts/theme/sheridan.eot?1415077062#iefix') format('embedded-opentype'), url('../fonts/theme/sheridan.woff?1415077062') format('woff'), url('../fonts/theme/sheridan.ttf?1415077062') format('truetype'), url('../fonts/theme/sheridan.svg?1415077062#sheridan') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-
-
-
-
-
-
-*/
-/*
-@font-face {
-  font-family: "AvenirBook";
-  src: url('../fonts/theme/Avenir45Book.eot');
-  src: url('../fonts/theme/Avenir45Book.eot#iefix') format('embedded-opentype'), url('../fonts/theme/Avenir45Book.woff') format('woff'), url('../fonts/theme/Avenir45Book.ttf') format('truetype'), url('../fonts/theme/AvenirBook.svg#Avenir45Book') format('svg');
-  font-weight: "normal";
-  font-style: "normal";
-}
-*/
-@font-face {
-  font-family: 'Avenir45Book';
+  font-family: "Avenir45Book";
   src: url("../fonts/theme/Avenir45Book.eot?v=4.4.0");
   src: url("../fonts/theme/Avenir45Book.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/theme/Avenir45Book.woff2?v=4.4.0") format("woff2"), url("../fonts/theme/Avenir45Book.woff?v=4.4.0") format("woff"), url("../fonts/theme/Avenir45Book.ttf?v=4.4.0") format("truetype"), url("../fonts/theme/Avenir45Book.svg?v=4.4.0#Avenir45Book") format("svg");
   font-weight: normal;
@@ -6637,13 +6591,15 @@ h2.product-name {
 }
 
 /*!
- *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
+/* FONT PATH
+ * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.4.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -9304,6 +9260,86 @@ h2.product-name {
   content: "\f280";
 }
 
+.fa-reddit-alien:before {
+  content: "\f281";
+}
+
+.fa-edge:before {
+  content: "\f282";
+}
+
+.fa-credit-card-alt:before {
+  content: "\f283";
+}
+
+.fa-codiepie:before {
+  content: "\f284";
+}
+
+.fa-modx:before {
+  content: "\f285";
+}
+
+.fa-fort-awesome:before {
+  content: "\f286";
+}
+
+.fa-usb:before {
+  content: "\f287";
+}
+
+.fa-product-hunt:before {
+  content: "\f288";
+}
+
+.fa-mixcloud:before {
+  content: "\f289";
+}
+
+.fa-scribd:before {
+  content: "\f28a";
+}
+
+.fa-pause-circle:before {
+  content: "\f28b";
+}
+
+.fa-pause-circle-o:before {
+  content: "\f28c";
+}
+
+.fa-stop-circle:before {
+  content: "\f28d";
+}
+
+.fa-stop-circle-o:before {
+  content: "\f28e";
+}
+
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+
+.fa-shopping-basket:before {
+  content: "\f291";
+}
+
+.fa-hashtag:before {
+  content: "\f292";
+}
+
+.fa-bluetooth:before {
+  content: "\f293";
+}
+
+.fa-bluetooth-b:before {
+  content: "\f294";
+}
+
+.fa-percent:before {
+  content: "\f295";
+}
+
 .product-swatches {
   display: inline-block;
   z-index: 2;
@@ -9326,23 +9362,6 @@ h2.product-name {
   max-height: 1rem;
 }
 
-.page-title {
-  margin-top: 0;
-}
-
-.page-title.page-header {
-  padding-bottom: 0;
-  border-bottom-width: 4px;
-}
-
-.page-title h1 {
-  font-family: "Baskerville Old Face";
-  margin: 0;
-  font-size: 28px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 .footer_extra .nav > li > a {
   padding: 4px 4px;
   color: #777777;
@@ -9355,21 +9374,6 @@ h2.product-name {
   text-decoration: underline;
 }
 
-.footer_extra h2,
-.footer_extra h3 {
-  font-size: 22px;
-  padding: 0 4px;
-}
-
-/**
-/**
- * Pacific Brands - Ribbons
- *  
- * @category    design
- * @package     pacbrands_sheridan2
- * @copyright   Copyright (c) 2014 Pacific Brands Limited
- */
-/* Ribbons - Default */
 .products-grid.products-grid-6 .product-ribbon.sheridanandme img,
 .products-grid.products-grid-4 .product-ribbon.sheridanandme img {
   height: 15px;
@@ -9737,17 +9741,14 @@ h2.product-name {
   z-index: 199;
 }
 
-/* Hide all price ribbons for now */
 .ribbon-price {
   display: none;
 }
 
-/* Recently viewed products */
 [data-item-count="0"] {
   display: none;
 }
 
-/* Product grids - make image box relative */
 .product_image {
   position: relative;
 }
@@ -9756,12 +9757,6 @@ h2.product-name {
   margin-bottom: 21px;
 }
 
-/**
- * @category    Mana
- * @package     ManaPro_FilterCheckboxes
- * @copyright   Copyright (c) http://www.manadev.com
- * @license     http://www.manadev.com/license  Proprietary License
- */
 ol.m-filter-css-checkboxes li {
   padding-bottom: 3px;
 }
@@ -9800,12 +9795,6 @@ ol.m-filter-css-checkboxes li a.m-checkbox-checked {
   bottom: 2px;
 }
 
-/*
- * @category    Mana
- * @package     ManaPro_FilterShowMore
- * @copyright   Copyright (c) http://www.manadev.com
- * @license     http://www.manadev.com/license  Proprietary License
- */
 .m-more-less {
   font-size: 11px;
   text-align: right;
@@ -10009,7 +9998,6 @@ html .card-extend-xs {
   font-size: 14px;
 }
 
-/* 3x Product Grid */
 @media (max-width: 991px) {
   .products-grid-3 .item:nth-of-type(2n + 1) {
     clear: both;
@@ -10020,5 +10008,9 @@ html .card-extend-xs {
   .products-grid-3 .item:nth-of-type(3n + 1) {
     clear: both;
   }
+}
+
+.mb-infinitescrolling-engine {
+  display: none;
 }
 /*# sourceMappingURL=bootstrap.css.map */
